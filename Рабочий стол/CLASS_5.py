@@ -1,0 +1,17 @@
+                        #PROBLEM:12:
+'''k_1=(1,2,3,4,5,)
+k_2=(5,6,7,8,9,)
+k_3=(9,10,11,12,13,)
+k_4=(13,14,15,16,17)
+k_5=(17,18,19,20,21)
+spisok=[k_1,k_2,k_3,k_4,k_5,]
+print(spisok)'''
+                      #PROBLEM:32:
+'''a=('tort','lagman','plov',)
+print(a[0:3])'''
+                  #PROBLEM:11:
+list_1=(2)
+list_1.extend('tort')
+list_1.extend(25)
+list_1.extend(10.5)
+print(list_1)

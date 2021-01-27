@@ -1,0 +1,76 @@
+{
+  "Version": "20.04",
+  "OEM": {
+    "Vendor": "HP",
+    "Product": "HP ENVY x360 Convertible 13-ag0xxx",
+    "Family": "103C_5335KV HP Envy"
+  },
+  "BIOS": {
+    "Vendor": "AMI",
+    "Version": "F.42"
+  },
+  "CPU": {
+    "OpMode": "32-bit, 64-bit",
+    "CPUs": "8",
+    "Threads": "2",
+    "Cores": "4",
+    "Sockets": "1",
+    "Vendor": "AuthenticAMD",
+    "Family": "23",
+    "Model": "17",
+    "Stepping": "0",
+    "Name": "AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx",
+    "Virtualization": "AMD-V"
+  },
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "1002",
+      "Model": "15dd"
+    }
+  ],
+  "RAM": 7.1,
+  "Partitions": [
+    50.1,
+    0.1
+  ],
+  "Screens": [
+    {
+      "Size": "294mmx165mm",
+      "Resolution": "1920x1080",
+      "Frequency": "120.02"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Language": "ru_RU",
+  "Timezone": "Asia/Bishkek",
+  "Install": {
+    "Media": "Ubuntu 20.04.1 LTS \"Focal Fossa\" - Release amd64 (20200731)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "resize_use_free",
+    "DownloadUpdates": true,
+    "Language": "ru",
+    "Minimal": false,
+    "RestrictedAddons": true,
+    "Stages": {
+      "0": "language",
+      "2": "language",
+      "401": "console_setup",
+      "407": "wireless",
+      "506": "prepare",
+      "554": "partman",
+      "569": "start_install",
+      "586": "timezone",
+      "595": "usersetup",
+      "645": "user_done",
+      "1167": "done"
+    }
+  }
+}
